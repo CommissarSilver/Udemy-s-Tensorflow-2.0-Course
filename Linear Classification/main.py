@@ -46,5 +46,3 @@ print('evaluate output: ', model.evaluate(X_test, Y_test))
 
 # saving model's weights
 model.save('linearclassifier.h5')
-model = tf.keras.models.load_model('linearclassifier.h5')
-print(model.layers)
